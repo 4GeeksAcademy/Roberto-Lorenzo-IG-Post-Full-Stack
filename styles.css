@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+body {
+    
+    font-family: Nunito;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.post {
+    background-color: white;
+    width: 500px;
+    margin: auto auto;
+}
+
+.postHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.leftHead {
+    display: flex;
+    margin: 0px 10px;
+}
+
+.leftHead h2, .leftHead p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+    padding-top: 0.5em;
+}
+
+.left p { 
+    padding-bottom: 0.3em;
+}
+
+i{
+    font-size: 2.25em;
+    
+}
+
+span {
+    float: left;
+    padding: 10px;
+}
+
+.settingsButton {
+    margin-right: 8px;
+    padding-right: 10px;
+}
+
+.post image, .post footer {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    padding: 0.5em;
+}
+
+.leftIcons {
+    display:flex;
+}
+
+.leftIcons i {
+    padding: 0 4px;
+}
+
+.rightIcons {
+    padding-right: 0.5em;
+}
+
+.postFooter p {
+    padding: 0 0.8em 0.8em;
+    margin: 10px;
+}
+
